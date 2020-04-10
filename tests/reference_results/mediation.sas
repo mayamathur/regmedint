@@ -2452,7 +2452,7 @@ A=exp(beta0+beta1*&a0);
 B=(1+A);
 D=exp(beta0+beta1*&a1);
 E=(1+D);
-/* Changed by @kaz-yos on 2020-04-01 based on VV2013 Appendix p14. */
+/* Changed by @kaz-yos on 2020-04-01 based on VV2013 Appendix p14. */ 
 /* The squared terms in the numerator is different from the denominator. */
 /* Corrected from
 x=(theta2)*((D*E-D**2)/(E**2)-(A*B-B**2)/(B**2));*/
